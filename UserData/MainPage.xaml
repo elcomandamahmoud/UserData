@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UserData.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Entry
+                x:Name="TXTName"
+                Placeholder="Enter your name" AnchorX="0" AnchorY="0"
+                />            
+<Button
+    x:Name="CheckName"
+    Text="Check your name" 
+    Clicked="CheckName_Clicked"
+    />
+<Entry
+    x:Name="TXTPhone"
+    Placeholder="Enter your phone"
+       />
+<Button
+    x:Name="CheckPhone"
+    Text="Check your phone"
+    Clicked="CheckPhone_Clicked"
+    />
+<Entry
+    x:Name="TXTE_Mail"
+    Placeholder="Enter your E-Mail"
+    />
+<Button
+    x:Name="CheckE_Mail"
+    Text="Check your E-Mail"
+    Clicked="CheckE_Mail_Clicked"
+    />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
